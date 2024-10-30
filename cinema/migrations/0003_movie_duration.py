@@ -14,6 +14,6 @@ class Migration(migrations.Migration):
             model_name="movie",
             name="duration",
             field=models.IntegerField(default=123),
-            preserve_default=False,
+            preserve_default=True,
         ),
     ]
